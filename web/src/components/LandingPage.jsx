@@ -38,7 +38,7 @@ function LandingPage({ onExplore }) {
 
         {/* 2. Hero Section */}
         <section className="hero-section">
-          <div className="hero-eyebrow">A personal collection — updated weekly</div>
+          <div className="hero-eyebrow">A personal collection</div>
           <h1 className="hero-headline">
             Where New Yorkers<br />
             <span className="headline-fade">Actually Eat & Drink</span>
@@ -47,10 +47,6 @@ function LandingPage({ onExplore }) {
             Hand-picked spots sourced from a local's personal maps 
             and saves. No tourist traps. No sponsored posts. Just good places.
           </p>
-          <div className="live-indicator">
-            <span className="pulse-dot"></span>
-            Last updated March 2026
-          </div>
         </section>
 
         {/* 3. Category Filter Pills */}
