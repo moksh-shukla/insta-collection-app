@@ -1,4 +1,8 @@
 {
+  "name": "insta-collection-app",
+  "scripts": {
+    "vercel-build": "cd web && npm install && npm run build && cd .. && cp -r web/dist dist"
+  },
   "dependencies": {
     "puppeteer": "^24.39.1"
   }
