@@ -44,7 +44,7 @@ function LandingPage({ onExplore }) {
             <span className="headline-fade">Actually Eat & Drink</span>
           </h1>
           <p className="hero-description">
-            89 hand-picked spots sourced from a local's personal maps 
+            Hand-picked spots sourced from a local's personal maps 
             and saves. No tourist traps. No sponsored posts. Just good places.
           </p>
           <div className="live-indicator">
