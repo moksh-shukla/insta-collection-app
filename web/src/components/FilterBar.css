@@ -1,0 +1,128 @@
+.filter-bar-wrapper {
+  padding: 0 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filter-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.filter-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Custom arrow for select */
+.custom-select-wrapper::after {
+  content: "▼";
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  position: absolute;
+  right: 12px;
+  pointer-events: none;
+}
+
+.filter-select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--card-border);
+  color: #fff;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border-radius: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  transition: border-color 0.2s;
+}
+
+.filter-select:hover,
+.filter-select:focus {
+  border-color: var(--accent-color);
+}
+
+.filter-select option {
+  background: var(--bg-color);
+  color: #fff;
+}
+
+.clear-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  transition: color 0.2s;
+}
+
+.clear-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.clear-btn:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.filter-results {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+  .filter-bar-container {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 16px;
+    align-items: stretch;
+  }
+  
+  .filter-controls {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 0.5rem;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .filter-controls::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .custom-select-wrapper {
+    flex-shrink: 0;
+  }
+
+  .clear-btn {
+    flex-shrink: 0;
+  }
+  
+  .filter-results {
+    text-align: center;
+  }
+}

@@ -1,0 +1,1807 @@
+{
+  "metadata": {
+    "source": "Instagram Saved Posts & Google Maps Saved Lists",
+    "extracted_date": "2026-03-17",
+    "total_instagram_spots": 21,
+    "total_instagram_guides": 6,
+    "total_maps_spots": 68,
+    "collections_analyzed": {
+      "instagram": [
+        "NYC Eats",
+        "nyc dates",
+        "nyc cafes",
+        "NYC Reels"
+      ],
+      "google_maps": [
+        "NYC Eats",
+        "NYC Clubs/Bars",
+        "Nyc Dates",
+        "Speakeasy",
+        "NYC Spots"
+      ]
+    }
+  },
+  "instagram_spots": [
+    {
+      "id": "ig_1",
+      "name": "Duomo51",
+      "type": "Restaurant / Rooftop Terrace",
+      "cuisine": "Italian",
+      "neighborhood": "Midtown Manhattan",
+      "address": "7th Floor Terrace (near Rockefeller Center)",
+      "highlights": [
+        "Rooftop terrace with skyline views",
+        "Authentic Italian flavors",
+        "Wine selection",
+        "Sunset dining experience"
+      ],
+      "reservations": "Recommended \u2014 Call (646) 398-8098",
+      "instagram": "@duomo51nyc",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DNtsXiNQMQb/",
+      "notes": "Great for date night or special occasion",
+      "rating": "4.6",
+      "reviews": "1,504",
+      "price": "$50\u2013100"
+    },
+    {
+      "id": "ig_2",
+      "name": "Sawada Coffee (inside Au Cheval)",
+      "type": "Caf\u00e9",
+      "cuisine": "Japanese-style coffee",
+      "neighborhood": "Manhattan (alley location)",
+      "address": null,
+      "highlights": [
+        "Tokyo-style black sugar syrup drinks",
+        "Matcha espresso military lattes",
+        "Located in one of few alleys in Manhattan",
+        "Inside Au Cheval restaurant"
+      ],
+      "reservations": "No (walk-in caf\u00e9)",
+      "instagram": null,
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DSBI_nTD_Sn/",
+      "notes": "Must-try: Tokyo style black sugar syrup",
+      "rating": "4.6",
+      "reviews": "218",
+      "price": "$10\u201320"
+    },
+    {
+      "id": "ig_3",
+      "name": "The Domino Room",
+      "type": "Bar / Terrace",
+      "cuisine": "Cocktails, Pizza, Steak",
+      "neighborhood": "Upper East Side",
+      "address": "1640 2nd Ave Upstairs, New York, NY 10028",
+      "highlights": [
+        "Wraparound terrace",
+        "Located above a caf\u00e9",
+        "Good for drinks with friends",
+        "Food served inside only"
+      ],
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DQMlv31gZsD/",
+      "notes": "New spot on UES",
+      "rating": "4.4",
+      "reviews": "74",
+      "price": "$20\u201330"
+    },
+    {
+      "id": "ig_4",
+      "name": "The Bar at Baccarat Hotel",
+      "type": "Bar / Lounge",
+      "cuisine": "Cocktails",
+      "neighborhood": "Midtown Manhattan",
+      "address": "28 W 53rd St, New York, NY 10019",
+      "highlights": [
+        "One of the most stunning bars in NYC",
+        "Perfect for drinks dates",
+        "Great for out-of-town visitors",
+        "Upscale Baccarat crystal setting"
+      ],
+      "reservations": "Recommended",
+      "instagram": "@baccaratnewyork",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DRMv3SUDVl6/",
+      "notes": "Luxury hotel bar, dress appropriately",
+      "rating": "4.2",
+      "reviews": null,
+      "price": "$100+"
+    },
+    {
+      "id": "ig_5",
+      "name": "The Club Room",
+      "type": "Nightclub / Jazz Club / Hotel Lounge",
+      "cuisine": "Cocktails",
+      "neighborhood": "SoHo",
+      "address": null,
+      "highlights": [
+        "Live jazz club that transitions to nightclub",
+        "Hotel lounge for chill nights",
+        "Great date night spot",
+        "Located in a SoHo hotel"
+      ],
+      "reservations": "Recommended",
+      "instagram": null,
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DRPqo4-AI5Y/",
+      "notes": "Known as nightclub but worth visiting for the jazz club / lounge side",
+      "rating": "4.3",
+      "reviews": null,
+      "price": "$50\u2013100"
+    },
+    {
+      "id": "ig_6",
+      "name": "Opera House NYC",
+      "type": "Speakeasy / Bar",
+      "cuisine": "Asian-inspired cocktails, Dim Sum",
+      "neighborhood": "Chinatown",
+      "address": null,
+      "highlights": [
+        "Asian-inspired speakeasy",
+        "In an old opera house / first Chinese theater in NYC",
+        "Tea and herb-infused cocktails",
+        "Dim sum bites",
+        "Underneath Chinese Tuxedo"
+      ],
+      "reservations": "Recommended",
+      "instagram": "@operahouse.nyc",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DQc3rAQgI2g/",
+      "notes": "Located underneath Chinese Tuxedo restaurant",
+      "rating": "4.2",
+      "reviews": "9",
+      "price": "$20\u201330"
+    },
+    {
+      "id": "ig_7",
+      "name": "The Back Room NYC",
+      "type": "Speakeasy / Bar",
+      "cuisine": "Cocktails (served in teacups)",
+      "neighborhood": "Lower East Side",
+      "address": null,
+      "highlights": [
+        "True Prohibition-era speakeasy",
+        "One of two in NYC serving since Prohibition",
+        "Drinks served in teacups",
+        "Live jazz on Mondays 9pm\u201312:30am",
+        "Time machine atmosphere"
+      ],
+      "reservations": "Not required",
+      "instagram": "@thebackroomnyc",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DRLRXBJj0DM/",
+      "notes": "\u26a0\ufe0f CASH ONLY",
+      "rating": "4.2",
+      "reviews": "1,900",
+      "price": "$20\u201330"
+    },
+    {
+      "id": "ig_8",
+      "name": "Fonty's Deli Dukaan",
+      "type": "Deli / Bodega",
+      "cuisine": "Indian sandwiches",
+      "neighborhood": "West Village (also Dumbo, Brooklyn)",
+      "address": null,
+      "highlights": [
+        "Indian-style sandwiches",
+        "Naanini (panini chicken tikka)",
+        "Bombay sandwich with Amul cheese",
+        "Worth the line",
+        "Second location in Dumbo"
+      ],
+      "reservations": "No (counter service, expect a line)",
+      "instagram": "@fontysdeli_dukaan",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DRiP-m3Fsfa/",
+      "notes": "10/10 rating. Long line but worth it.",
+      "rating": "4.5",
+      "reviews": "4,600",
+      "price": "$20\u201330"
+    },
+    {
+      "id": "ig_9",
+      "name": "Bar Behind Cafe Select",
+      "type": "Speakeasy / Bar",
+      "cuisine": "Cocktails",
+      "neighborhood": "SoHo / NoLIta",
+      "address": null,
+      "highlights": [
+        "Hidden speakeasy behind a caf\u00e9",
+        "One of the classic NYC speakeasies",
+        "Great atmosphere"
+      ],
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DP03KdGDnYo/",
+      "notes": "Located behind Cafe Select",
+      "rating": "4.5",
+      "reviews": "2,200",
+      "price": "$10\u201320"
+    },
+    {
+      "id": "ig_10",
+      "name": "The Ainsworth",
+      "type": "Rooftop Bar",
+      "cuisine": "American / Bar Food",
+      "neighborhood": "Manhattan",
+      "address": null,
+      "highlights": [
+        "One of the best happy hours in NYC",
+        "Beautiful rooftop",
+        "Disco seltzer buckets",
+        "Half off appetizers",
+        "FREE shots for everyone at sunset"
+      ],
+      "reservations": "Recommended for groups",
+      "instagram": "@theainsworth",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DMjC-Vyuinr/",
+      "notes": "Amazing happy hour deal",
+      "rating": "4.8",
+      "reviews": "3,000",
+      "price": "$50\u2013100"
+    },
+    {
+      "id": "ig_11",
+      "name": "Barnjoo 35",
+      "type": "Korean Restaurant / Bar",
+      "cuisine": "Korean",
+      "neighborhood": "Koreatown (K-Town)",
+      "address": null,
+      "highlights": [
+        "Soju flights",
+        "Korean food and drinks",
+        "Great K-Town vibe"
+      ],
+      "reservations": "Unknown",
+      "instagram": "@barnjoo_35",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DLyaIqER6l4/",
+      "notes": "Go for the soju flight!",
+      "rating": "3.9",
+      "reviews": "324",
+      "price": "$100+"
+    },
+    {
+      "id": "ig_12",
+      "name": "The Roof at PUBLIC Hotel (Igloos)",
+      "type": "Rooftop Bar / Seasonal Experience",
+      "cuisine": "Cocktails, Light bites",
+      "neighborhood": "Lower East Side",
+      "address": "PUBLIC Hotel rooftop",
+      "highlights": [
+        "Transparent igloo domes",
+        "Skyline views from downtown to Empire State Building",
+        "One of NYC's coziest winter traditions",
+        "Cocktails and light bites inside heated domes"
+      ],
+      "reservations": "Recommended",
+      "instagram": null,
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DRpSRGyEfGG/",
+      "notes": "Seasonal \u2014 winter only. Great for date night or festive gatherings.",
+      "rating": "4.7",
+      "reviews": "935",
+      "price": "$30\u201350"
+    },
+    {
+      "id": "ig_13",
+      "name": "StEight",
+      "type": "Japanese Speakeasy / Bar",
+      "cuisine": "Japanese cocktails",
+      "neighborhood": "Chinatown / Lower East Side",
+      "address": "116 Eldridge St, New York, NY 10002",
+      "highlights": [
+        "Hidden Japanese speakeasy in Chinatown",
+        "Super small and intimate",
+        "Vinyl records playing",
+        "Japanese cultural touches throughout",
+        "4.9/5 stars (60+ reviews)"
+      ],
+      "reservations": "Walk-in (limited space)",
+      "instagram": "@kingsonchen (recommender)",
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DNRtAZNMYL2/",
+      "notes": "Must-try: ICHIGO ICHIEI (strawberry drink with matcha from Kyoto)",
+      "rating": "4.7",
+      "reviews": "605",
+      "price": "$30\u201350"
+    },
+    {
+      "id": "ig_14",
+      "name": "Boucherie",
+      "type": "French Restaurant",
+      "cuisine": "French (French onion soup)",
+      "neighborhood": "West Village",
+      "address": null,
+      "highlights": [
+        "Festive Christmas atmosphere",
+        "Great French onion soup",
+        "Near West Village Christmas decorations",
+        "Grab hot chocolate across the street after dinner"
+      ],
+      "reservations": "Recommended",
+      "instagram": null,
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DSBaZ2fjc6e/",
+      "notes": "Especially beautiful during Christmas season",
+      "rating": "4.7",
+      "reviews": "4,164",
+      "price": "$100+"
+    },
+    {
+      "id": "ig_15",
+      "name": "Death & Co",
+      "type": "Cocktail Bar",
+      "cuisine": "Craft cocktails",
+      "neighborhood": "East Village",
+      "address": null,
+      "highlights": [
+        "Iconic NYC cocktail bar",
+        "Healing / therapeutic cocktail vibes",
+        "Great for drinks with friends"
+      ],
+      "reservations": "Recommended",
+      "instagram": "@deathandcompany",
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DQFXlGPDyDH/",
+      "notes": "One of the most famous cocktail bars in the world",
+      "rating": "4.3",
+      "reviews": null,
+      "price": "$100+"
+    },
+    {
+      "id": "ig_16",
+      "name": "The Morgan Library & Museum",
+      "type": "Museum / Free Event",
+      "cuisine": "N/A (cultural venue)",
+      "neighborhood": "Murray Hill / Midtown",
+      "address": null,
+      "highlights": [
+        "Free Friday evenings 5\u20138pm",
+        "Reservations required (tickets released 1 week in advance)",
+        "Live music begins at 5pm",
+        "Stunning library interior"
+      ],
+      "reservations": "Required (free tickets, released 1 week ahead)",
+      "instagram": null,
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DNQwThAt2mK/",
+      "notes": "Perfect free date night spot",
+      "rating": "4.5",
+      "reviews": "248",
+      "price": "$100+"
+    },
+    {
+      "id": "ig_17",
+      "name": "Porto Rico Importing Co.",
+      "type": "Caf\u00e9 / Coffee",
+      "cuisine": "Coffee",
+      "neighborhood": "Greenwich Village",
+      "address": null,
+      "highlights": [
+        "Cozy Christmas atmosphere",
+        "Classic NYC caf\u00e9",
+        "Great coffee"
+      ],
+      "reservations": "No",
+      "instagram": null,
+      "source_collection": "nyc cafes",
+      "source_url": "https://www.instagram.com/p/DSJSahUDSNk/",
+      "notes": "From favorite NYC Christmas cafes list",
+      "rating": "4.7",
+      "reviews": "3,707",
+      "price": "$100+"
+    },
+    {
+      "id": "ig_18",
+      "name": "Cafe Cluny",
+      "type": "Caf\u00e9 / Restaurant",
+      "cuisine": "American / French",
+      "neighborhood": "West Village",
+      "address": null,
+      "highlights": [
+        "Cozy holiday vibes",
+        "West Village charm"
+      ],
+      "reservations": "Recommended",
+      "instagram": null,
+      "source_collection": "nyc cafes",
+      "source_url": "https://www.instagram.com/p/DSJSahUDSNk/",
+      "notes": "From favorite NYC Christmas cafes list",
+      "rating": "4.7",
+      "reviews": "1,000",
+      "price": "$10\u201320"
+    },
+    {
+      "id": "ig_19",
+      "name": "Commerce Inn",
+      "type": "Restaurant / Caf\u00e9",
+      "cuisine": "American",
+      "neighborhood": "West Village",
+      "address": null,
+      "highlights": [
+        "Festive atmosphere",
+        "Cozy West Village spot"
+      ],
+      "reservations": "Recommended",
+      "instagram": null,
+      "source_collection": "nyc cafes",
+      "source_url": "https://www.instagram.com/p/DSJSahUDSNk/",
+      "notes": "From favorite NYC Christmas cafes list",
+      "rating": "4.0",
+      "reviews": "140",
+      "price": "$10\u201320"
+    },
+    {
+      "id": "ig_20",
+      "name": "Urban Backyard",
+      "type": "Caf\u00e9",
+      "cuisine": "Coffee, Light fare",
+      "neighborhood": "Nolita",
+      "address": null,
+      "highlights": [
+        "Cozy spot in Nolita",
+        "Great for a festive visit"
+      ],
+      "reservations": "No",
+      "instagram": null,
+      "source_collection": "nyc cafes",
+      "source_url": "https://www.instagram.com/p/DSJSahUDSNk/",
+      "notes": "From favorite NYC Christmas cafes list",
+      "rating": "4.7",
+      "reviews": "1,000",
+      "price": "$10\u201320"
+    },
+    {
+      "id": "ig_21",
+      "name": "Birley Bakery",
+      "type": "Bakery / Caf\u00e9",
+      "cuisine": "Bakery, Pastries",
+      "neighborhood": "Upper East Side",
+      "address": null,
+      "highlights": [
+        "Upscale UES bakery",
+        "Great pastries and coffee"
+      ],
+      "reservations": "No",
+      "instagram": null,
+      "source_collection": "nyc cafes",
+      "source_url": "https://www.instagram.com/p/DSJSahUDSNk/",
+      "notes": "From favorite NYC Christmas cafes list",
+      "rating": "4.0",
+      "reviews": "140",
+      "price": "$10\u201320"
+    }
+  ],
+  "instagram_guides": [
+    {
+      "id": "G1",
+      "name": "NYC Bar Crawl Route",
+      "type": "Guide / Bar Crawl",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DP9dsEUjx8v/",
+      "notes": "Video guide \u2014 watch for specific bar names"
+    },
+    {
+      "id": "G2",
+      "name": "NYC Vegetarian Restaurant Recs (Part 1)",
+      "type": "Guide / List",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DQQfz54DSe3/",
+      "notes": "Carousel guide \u2014 swipe through for restaurant names"
+    },
+    {
+      "id": "G3",
+      "name": "NYC Live Music & Drinks Guide",
+      "type": "Guide / List",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DMIpOiZzsrb/",
+      "notes": "Carousel guide \u2014 jazz lounges, blues bars, date nights"
+    },
+    {
+      "id": "G4",
+      "name": "Top 10 Pancakes in NYC",
+      "type": "Guide / Video",
+      "source_collection": "NYC Eats",
+      "source_url": "https://www.instagram.com/p/DQzWuiGDh4c/",
+      "notes": "Video guide \u2014 watch for specific pancake spots"
+    },
+    {
+      "id": "G5",
+      "name": "Operacore Guide to Christmas in NYC",
+      "type": "Guide / Carousel",
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DR2qnzbj_mj/",
+      "notes": "Carousel guide \u2014 festive bars, restaurants, experiences"
+    },
+    {
+      "id": "G6",
+      "name": "NYC Jazz Bars Guide",
+      "type": "Guide / Video",
+      "source_collection": "nyc dates",
+      "source_url": "https://www.instagram.com/p/DRgNN7SANgH/",
+      "notes": "Video \u2014 jazz bar recommendations"
+    }
+  ],
+  "google_maps_spots": [
+    {
+      "name": "INDN Small Plates & Cocktails",
+      "type": "Cocktail bar",
+      "rating": "4.6",
+      "reviews": "634",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Experience handcrafted cocktails, flavorful Indian food, and small plates in a luxurious setting. INDN offers bold flavors and signature drinks in the heart of Manhattan."
+      ],
+      "id": "gm_-9057848",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Emmett's on Grove",
+      "type": "Pizza",
+      "rating": "4.3",
+      "reviews": "348",
+      "price": "Moderately priced",
+      "highlights": [
+        "Emmett&#x27;s on Grove is a midwest inspired supper club specializing in tavern style pizza. Following the success of his Soho institution, Emmett&#x27;s, owner Emmett Burke longed to create a space exclusively showcasing Chicago&#x27;s lesser known but hometown favorite pizza: tavern style thin crust."
+      ],
+      "id": "gm_-3704912",
+      "cuisine": "Pizza",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Aim\u00e9 Leon Dore",
+      "type": "Clothing store / Cafe",
+      "rating": "3.1",
+      "reviews": "586",
+      "price": null,
+      "highlights": [
+        "Clothing store / Cafe",
+        "Price varies"
+      ],
+      "id": "gm_-1971956",
+      "cuisine": "Clothing store / Cafe",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Chinese Tuxedo",
+      "type": "Chinese",
+      "rating": "4.4",
+      "reviews": "1,257",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Best NYC Restaurants, Chinese, Modern Asian Food, Chinatown, Cocktails, Late Night, Fine Dining, Manhattan, Banquet, Private Dining, Upscale Restaurant, Private Events Chinese Tuxedo NYC, New York City: See 149 unbiased reviews of Chinese Tuxedo NYC, rated 4.2 of 5 on Tripadvisor and ranked #1,382 of 8,925 restaurants in New York City. 3.9 (622 reviews) Claimed $$$ Chinese, Seafood, Noodles Closed 5:00 PM - 11:00 PM See hours See all 1.4k photos Chinese Tuxedo, located in New York City, offers a trendy dining experience with a diverse menu of noodles, Chinese dishes, and seafood options."
+      ],
+      "id": "gm_90801941",
+      "cuisine": "Chinese",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Kyuramen - Union Square",
+      "type": "Japanese",
+      "rating": "4.5",
+      "reviews": "1,975",
+      "price": "$20\u201330",
+      "highlights": [
+        "Kyuramen Union Square offers authentic Japanese ramen in New York&#x27;s Union Square area. Specialties: A New Japanese style ramen place in Union Square, NYC."
+      ],
+      "id": "gm_-6347559",
+      "cuisine": "Japanese",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Best Bagel & Coffee",
+      "type": "Bagel shop",
+      "rating": "4.6",
+      "reviews": "6,541",
+      "price": "$10\u201320",
+      "highlights": [
+        "NEW YORK CITY&#x27;S TOP RATED BAGEL STORE Step into Best Bagel Coffee and Enjoy the Ultimate Bagel Experience Best Bagel and Coffee specializes in offering hand-rolled bagels baked daily on the premises with all-natural flavors. Specialties: Fresh hand rolled bagels with variety of cream cheeses."
+      ],
+      "id": "gm_80524521",
+      "cuisine": "Bagel shop",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Fonty\u2019s Deli + Dukaan",
+      "type": "Sandwich",
+      "rating": "4.2",
+      "reviews": "133",
+      "price": "$20\u201330",
+      "highlights": [
+        "&quot;We are obsessed with sandwiches,&quot; said Varsha Harlalka, one of three co-founders of the charming new Fonty&#x27;s Deli and Dukaan on Christopher Street, along with her husband Arjun Gupta and their friend Viraj Borkar. She said her husband Arjun grew up in Tampa, Florida, &quot;eating tons of sandwiches,&quot; while she and Viraj grew up in Assam, India, also eating a lot of sandwiches, but very different ..."
+      ],
+      "id": "gm_-9318542",
+      "cuisine": "Sandwich",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "The Best Sichuan",
+      "type": "Sichuan",
+      "rating": "4.8",
+      "reviews": "2,882",
+      "price": "$20\u201330",
+      "highlights": [
+        "The Best Sichuan, a Chinese restaurant with typical Sichuan cuisine, located near Time Square at 47 W 39th Street, New York, NY10018, opened recently. The restaurant was renovated thoroughly according to a modern luxury medium sized restaurant in a metropolis."
+      ],
+      "id": "gm_-3928211",
+      "cuisine": "Sichuan",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Devoci\u00f3n",
+      "type": "Coffee shop",
+      "rating": "4.5",
+      "reviews": "966",
+      "price": "$10\u201320",
+      "highlights": [
+        "Specialties: Farm-to-table coffee roasters. We average 10 days from origin to roast, serving the freshest coffee imaginable."
+      ],
+      "id": "gm_29602471",
+      "cuisine": "Coffee shop",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Osteria Delbianco",
+      "type": "Italian",
+      "rating": "4.7",
+      "reviews": "954",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Osteria Delbianco offers an intimate, white-tablecloth dining room with closely spaced tables and a lively bar area. The owner notes private-party capability (they accept private events), though the restaurant does not take very large parties."
+      ],
+      "id": "gm_14357340",
+      "cuisine": "Italian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Rubirosa",
+      "type": "Pizza",
+      "rating": "4.6",
+      "reviews": "6,702",
+      "price": "$30\u201350",
+      "highlights": [
+        "Rubirosa is located in the heart of Nolita and its clientele bridges the gap between the old and new neighborhood regulars. Rubirosa&#x27;s homey and comfortable atmosphere welcomes every occasion!"
+      ],
+      "id": "gm_-4450849",
+      "cuisine": "Pizza",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Ambra",
+      "type": "Italian",
+      "rating": "4.4",
+      "reviews": "256",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Italian restaurant in West Village NYC serves handmade pasta, wood-fired pizza, and premium wines. Private event spaces are available for special gatherings."
+      ],
+      "id": "gm_-7876209",
+      "cuisine": "Italian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Darling",
+      "type": "Bar",
+      "rating": "3.8",
+      "reviews": "428",
+      "price": null,
+      "highlights": [
+        "Escape to Darling\u2014an intimate rooftop oasis above Central Park. Sip signature cocktails, enjoy curated entertainment, and soak in stunning New York views."
+      ],
+      "id": "gm_-7107292",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "A10 Kitchen",
+      "type": "American",
+      "rating": "4.5",
+      "reviews": "290",
+      "price": "$20\u201330",
+      "highlights": [
+        "Specialties: Costumer service, our unique food and crafted cocktails all the time. Also we have the best happy hour in NyC."
+      ],
+      "id": "gm_40016686",
+      "cuisine": "American",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Adda",
+      "type": "Indian",
+      "rating": "4.6",
+      "reviews": "752",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Reservations *For all reservations of 7 and more, please visit our private dining page. Once located in Queens, this restaurant by Unapologetic Foods has found a new home in the East Village."
+      ],
+      "id": "gm_34996785",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "A Side Pizza & Pasta Bar",
+      "type": "Pizza/Pasta",
+      "rating": "4.8",
+      "reviews": "124",
+      "price": null,
+      "notes": "Permanently closed",
+      "highlights": [
+        "Discover A Side Pizza Pasta Bar in Hell&#x27;s Kitchen, NYC, for fresh pasta, flavorful personal pizzas, standout chicken Parmesan, and vibrant cocktails. Enjoy great service, affordable prices, and unbeatable happy hour deals in a modern, friendly setting."
+      ],
+      "id": "gm_61048267",
+      "cuisine": "Pizza/Pasta",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Rosetta Bakery",
+      "type": "Bakery",
+      "rating": "4.3",
+      "reviews": "1,212",
+      "price": "$10\u201320",
+      "highlights": [
+        "From the moment you walk into Rosetta Bakery, you can tell it&#x27;s more than just another caf\u00e9\u2014it&#x27;s a vibrant New York stop that brings authentic Italian bakery vibes straight to the Upper West Side. Whether you&#x27;re grabbing breakfast before work, meeting a friend for coffee, or stopping by for a savory lunch, this place consistently delivers delicious food, great drinks, and a welcoming ..."
+      ],
+      "id": "gm_-2476595",
+      "cuisine": "Bakery",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Ellen's Stardust Diner",
+      "type": "Diner",
+      "rating": "4.4",
+      "reviews": "23,707",
+      "price": "$20\u201330",
+      "highlights": [
+        "Welcome to Ellen&#x27;s Stardust Diner - home of the world famous singing waiters - serving Breakfast, Lunch &amp; Dinner for tour groups &amp; locals alike since 1987! A singing waitstaff is only part of the fun at this 1950s-themed Times Square restaurant, which packs folks in for food and entertainment."
+      ],
+      "id": "gm_-5094608",
+      "cuisine": "Diner",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Lantern",
+      "type": "Thai",
+      "rating": "4.3",
+      "reviews": "1,106",
+      "price": "$10\u201320",
+      "highlights": [
+        "La Lanterna, located in New York City, NY, offers a lantern-lit indoor garden and live jazz in the adjoining bar to complement light Italian fare italian cafe-coffee shop La Lanterna di Vittorio Home Valentine&#x27;s Day Gift Cards Reservations Menus Bar Next Door Prix Fixe Menu Pricing Selected Views &amp; Reviews Contact 129 MacDougal St New York NY 10012 Phone: (917) 639-3236 Phone: (212) 529-5945 Fax: (212) 981-2731 About La Lanterna di Vittorio Greenwich village cafe established in 1977 by Carlo Vittorio Antonini features 12 types of lasagna, full bar, fine Italian pastries, espresso by Cafe Domino and a Wine Spectator awarded wine list. DINING About - Dining Experience fine dining of Italian cuisine with a Swiss twist Thank you for joining us at La Lanterna as we enter our 30+ year anniversary of serving excellent food to share with our wonderful guests."
+      ],
+      "id": "gm_-6326009",
+      "cuisine": "Thai",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Lilly's Cocktail and Wine",
+      "type": "New American",
+      "rating": "4.3",
+      "reviews": "438",
+      "price": "Moderately priced",
+      "highlights": [
+        "4.1 (221 reviews) Claimed $$ New American, Wine Bars, Cocktail Bars Closed 11:00 AM - 10:00 PM See hours See all 268 photos From the owners of Lilly&#x27;s Craft and Kitchen in Hell&#x27;s Kitchen, Lilly&#x27;s Cocktail and Wine is a sophisticated yet casual, comfy locale offering wines by the glass &amp; tapas-style Italian bites. Stop in and taste our noteworthy desserts, try out our comfort food, or enjoy happy hour in a hip environment."
+      ],
+      "id": "gm_35678778",
+      "cuisine": "New American",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Veeray da Dhaba",
+      "type": "Indian",
+      "rating": "4.5",
+      "reviews": "438",
+      "price": "$20\u201330",
+      "highlights": [
+        "Welcome to Veeray da Dhaba, New York City&#x27;s first Punjabi dhaba by Michelin-starred Chef Hemant Mathur. Located in the heart of the East Village, VDD brings the soulful flavors of traditional Indian roadside cuisine to NYC \u2014 rich curries, aromatic tandoori specialties, slow-cooked dals, and beloved Punjabi classics served in a welcoming, casual setting."
+      ],
+      "id": "gm_89597754",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Mughlai Grill",
+      "type": "Indian",
+      "rating": "4.5",
+      "reviews": "633",
+      "price": "$30\u201340",
+      "highlights": [
+        "Come to Mughali and enjoy a wide variety of delicious Indian cuisine including vegetarian and non-vegetarian appetizers, soups and beverages. We cook with halal meats!"
+      ],
+      "id": "gm_-1032344",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Kebab aur Sharab",
+      "type": "Indian",
+      "rating": "4.3",
+      "reviews": "922",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Specialties: BAB \u0914\u0930 one LBAB, At Kebab and Sharab we aim to offer our patrons an experience; a true culinary journey, capturing the opulence of age-old traditions and of one of the oldest known culinary heritages in the World: India! The Indian Culture is full of patterns, colors, and emotions."
+      ],
+      "id": "gm_-4282408",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Tomi Jazz",
+      "type": "Jazz",
+      "rating": "4.5",
+      "reviews": "2,133",
+      "price": "$30\u201350",
+      "highlights": [
+        "&quot; We ordered 2 different croquettes, an omurice and the cod roe pasta, which was actually decently portioned. &quot; in 73 reviews &quot; Behind a fairly nondescript door is an intimate, relaxing, dimly lit restaurant/bar with great music playing."
+      ],
+      "id": "gm_-2022929",
+      "cuisine": "Jazz",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "The Mean Fiddler",
+      "type": "Irish pub",
+      "rating": "4.4",
+      "reviews": "3,639",
+      "price": "Moderately priced",
+      "highlights": [
+        "The Mean Fiddler in New York, NY, The Mean Fiddler delivers the full NYC experience, music, drinks, and an atmosphere built for making memories right in the middle of the city that never sleeps. Reserve a table at The Mean Fiddler, New York City on Tripadvisor: See 1,179 unbiased reviews of The Mean Fiddler, rated 4.5 of 5 on Tripadvisor and ranked #202 of 8,925 restaurants in New York City."
+      ],
+      "id": "gm_34060821",
+      "cuisine": "Irish pub",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Cafe Luce \u2013 Italian Restaurant & Wine Bar",
+      "type": "Italian",
+      "rating": "4.7",
+      "reviews": "1,343",
+      "price": "$30\u201350",
+      "highlights": [
+        "Discover the ultimate italian restaurant Midtown East NYC near grand central! Relish fresh pasta and curated wines at Cafe Luce, the italian restaurant near grand central."
+      ],
+      "id": "gm_-4857204",
+      "cuisine": "Italian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Taqueria On Tenth",
+      "type": "Mexican",
+      "rating": "4.7",
+      "reviews": "566",
+      "price": "$30\u201350",
+      "highlights": [
+        "Book now at Taqueria on Tenth in New York, NY. Explore menu, see photos and read 17 reviews: &quot;First time diner."
+      ],
+      "id": "gm_45867304",
+      "cuisine": "Mexican",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "WOK IN THE CLOUDS",
+      "type": "Modern Indian restaurant",
+      "rating": "4.5",
+      "reviews": "385",
+      "price": "$20\u201330",
+      "highlights": [
+        "Wok In The Clouds in Midtown NYC serves bold Asian-Indian fusion with noodles, tandoori, momos, and lobster. Order online or dine in near Flatiron."
+      ],
+      "id": "gm_48261608",
+      "cuisine": "Modern Indian restaurant",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Darbar Grill",
+      "type": "Restaurant",
+      "rating": "4.3",
+      "reviews": "1,563",
+      "price": null,
+      "notes": "Temporarily closed",
+      "highlights": [
+        "Darbar Grill in Midtown East features upscale Indian cuisine for lunch and dinner. Darbar is a recommended restaurant for fine Indian food, serving delicious Indian lunch specials and upscale Indian menu at dinner in Midtown Manhattan."
+      ],
+      "id": "gm_-5521429",
+      "cuisine": "Restaurant",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Semma",
+      "type": "South Indian",
+      "rating": "4.2",
+      "reviews": "1,528",
+      "price": "$50\u2013100",
+      "highlights": [
+        "From the team behind Unapologetic Foods (Dhamaka, Adda), Semma is a bold, clear-eyed expression of Southern Indian cuisine, rooted in the traditions of Tamil Nadu and brought to life by Chef Vijay Kumar. This is food drawn from memory, from farm life and family kitchens, from rituals rarely seen outside South India."
+      ],
+      "id": "gm_67081095",
+      "cuisine": "South Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Patiala Indian Grill",
+      "type": "Indian",
+      "rating": "4.5",
+      "reviews": "4,255",
+      "price": "$20\u201330",
+      "highlights": [
+        "The new Patiala Indian Grill and Bar is an authentic north and south Indian Cuisine in the heart of Penn station, Manhattan, serving with familiar fare includes many vegan and vegetarian options served with Royal Indian hospitality. Parties 20+ have to make 2 different bookings online depending on party size."
+      ],
+      "id": "gm_-1856122",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "DILLI DILLI",
+      "type": "Indian",
+      "rating": "4.1",
+      "reviews": "417",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Specialties: More than just a restaurant, Dilli Dilli is an experience\u2014a vibrant journey through the rich flavors and culture of Old Delhi. From the warm, nostalgic ambiance to a menu that revives generations-old recipes, every bite tells a story."
+      ],
+      "id": "gm_-8453306",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "Dhamaka",
+      "type": "Indian",
+      "rating": "4.5",
+      "reviews": "3,599",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Dhamaka is an Unapologetic Foods restaurant celebrating the forgotten side of India. Located at Essex Market on the Lower East Side, Dhamaka dives deep into the bold, provincial cooking rarely seen outside of Indian homes and roadside stalls."
+      ],
+      "id": "gm_-1892613",
+      "cuisine": "Indian",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Eats"
+    },
+    {
+      "name": "PHD Rooftop Lounge at Dream Downtown",
+      "type": "Night club",
+      "rating": "3.1",
+      "reviews": "866",
+      "price": "$100+",
+      "highlights": [
+        "Welcome to PHD Rooftop Lounge, one of NYC&#x27;s most renown rooftops known for breathtaking views. Located on the 12th floor of the Dream Downtown."
+      ],
+      "id": "gm_77640867",
+      "cuisine": "Night club",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Old Mates Pub",
+      "type": "Pub",
+      "rating": "4.5",
+      "reviews": "410",
+      "price": null,
+      "highlights": [
+        "View Old Mates Pub at 170 John St, New York, NY 10038on Google Maps Main Content Starts Here, tab to start navigating Old Mates Pub | Australian Pub in New York, NY hero video paused, press to play videoPlaying hero video, press to pause video &quot;The Real Aussie Embassy&quot; An authentic Australian pub nestled in the historic heart of Downtown Manhattan. Experience authentic Australian pub culture in the heart of Downtown Manhattan at Old Mates Pub."
+      ],
+      "id": "gm_-6764874",
+      "cuisine": "Pub",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Bar Bonobo",
+      "type": "Cocktail bar",
+      "rating": "4.4",
+      "reviews": "178",
+      "price": null,
+      "highlights": [
+        "Indulge in expertly crafted cocktails in our elegant cocktail lounge. Enjoy a wide selection of unique drinks and exquisite flavors."
+      ],
+      "id": "gm_37527021",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Brooklyn Storehouse",
+      "type": "Event venue",
+      "rating": "4.1",
+      "reviews": "268",
+      "price": null,
+      "highlights": [
+        "Discover Brooklyn Storehouse, a versatile event space in the historic Brooklyn Navy Yard. Perfect for music, arts, and cultural events."
+      ],
+      "id": "gm_-2093951",
+      "cuisine": "Event venue",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Harry's Side Bar",
+      "type": "Cocktail bar",
+      "rating": "4.6",
+      "reviews": "67",
+      "price": "$30\u201350",
+      "highlights": [
+        "Harry&#x27;s Side Bar is a Champagne Bar specializing in a diverse selection of bubbles, wine, aperitifs, and small plates. Perfect for after-work gatherings, cocktail receptions, date night, solo dining and weekend brunch, visit us on Stone Street in downtown Manhattan&#x27;s Financial District."
+      ],
+      "id": "gm_45615668",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Melody\u2019s Piano Bar",
+      "type": "Cocktail bar",
+      "rating": "4.1",
+      "reviews": "275",
+      "price": "$30\u201340",
+      "highlights": [
+        "Martignetti brothers, Tom and Anthony modernize the Upper East Side classic, Lexington Bar and Books with Melody&#x27;s Piano Bar - a storied spot for storied brothers. 4.0 (75 reviews) Claimed Cocktail Bars, Jazz &amp; Blues, Piano Bars Closed 5:00 PM - 4:00 AM (Next day) See hours See all 73 photos I recommend you to visit the restaurant Melody&#x27;s Piano Bar."
+      ],
+      "id": "gm_60163615",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "The Red Lion | NYC",
+      "type": "Live music bar",
+      "rating": "4.4",
+      "reviews": "1,904",
+      "price": "Moderately priced",
+      "highlights": [
+        "The Red Lion is the official home of Brentford FC in NYC, serving as the primary hub for Bees fans to catch every Premier League fixture live on Bleecker Street. Experience the most authentic West Village football atmosphere with fellow supporters, proper pints, and traditional pub food for every match."
+      ],
+      "id": "gm_-8244963",
+      "cuisine": "Live music bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "JIMMY",
+      "type": "Bar",
+      "rating": "3.9",
+      "reviews": "1,193",
+      "price": "$$$",
+      "highlights": [
+        "JIMMY is a classic NYC Bar sits 18 stories above SoHo with panoramic views of Midtown. The area features a pool, conversation pit and freeform lounge."
+      ],
+      "id": "gm_56204076",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Mr. Purple",
+      "type": "Bar",
+      "rating": "4.1",
+      "reviews": "3,123",
+      "price": "$$$",
+      "highlights": [
+        "Mr. Purple, a rooftop bar and restaurant located on the 15th floor of Hotel Indigo Lower East Side, captures the vibrant and artistic spirit of the LES."
+      ],
+      "id": "gm_-4746117",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Kind Regards",
+      "type": "Bar",
+      "rating": "3.2",
+      "reviews": "446",
+      "price": "$20\u201330",
+      "highlights": [
+        "Specialties: Cocktails and house party vibes. With COVID closing our doors temporarily we&#x27;ve created a lil oasis in the LES, right on the street."
+      ],
+      "id": "gm_-6274184",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Pianos",
+      "type": "Lounge bar",
+      "rating": "3.9",
+      "reviews": "2,398",
+      "price": "$20\u201330",
+      "highlights": [
+        "Cargo GENERAL INQUIRIES: info@pianosnyc.com PRIVATE PARTIES: party@pianosnyc.com PERFORMER BOOKING: booking@pianosnyc.com DJ BOOKING: dj@pianosnyc.com \ufe0e: (212) 505-3733 Specialties: Live music and great food Established in 2002. Pianos is kind of an entertainment multiplex."
+      ],
+      "id": "gm_-5596784",
+      "cuisine": "Lounge bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Devoci\u00f3n",
+      "type": "Coffee shop",
+      "rating": "4.5",
+      "reviews": "966",
+      "price": "$10\u201320",
+      "highlights": [
+        "Specialties: Farm-to-table coffee roasters. We average 10 days from origin to roast, serving the freshest coffee imaginable."
+      ],
+      "id": "gm_-8064651",
+      "cuisine": "Coffee shop",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Tipsy Nomad",
+      "type": "Bar",
+      "rating": "4.4",
+      "reviews": "202",
+      "price": "$",
+      "highlights": [
+        "Located in the heart of Manhattan&#x27;s NoMad neighborhood, Tipsy NoMad NYC is a high-energy bar, restaurant, and lounge at 37 East 28th Street, New York, NY 10016. Known for craft cocktails, premium spirits, and elevated bar food, Tipsy NoMad offers a vibrant yet comfortable atmosphere for after-work drinks, game nights, and late-night gatherings."
+      ],
+      "id": "gm_-4568442",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Obvio",
+      "type": "Bar",
+      "rating": "4.3",
+      "reviews": "150",
+      "price": "$50\u2013100",
+      "highlights": [
+        "Discover Obvio, a chic cocktail bar in Nomad New York, known for its upscale drinks, stylish ambiance, and vibrant energy. Perfect for late-night cocktails, social gatherings, and unforgettable evenings in the heart of NYC."
+      ],
+      "id": "gm_-6951780",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "The Fleur Room",
+      "type": "Bar",
+      "rating": "3.7",
+      "reviews": "1,014",
+      "price": null,
+      "highlights": [
+        "Located on the 35th floor of Moxy Chelsea, The Fleur Room&#x27;s glass-enclosed rooftop boasts unparalleled views of the NYC skyline and Empire State Building. The Fleur Room NYC, Casual Elegant Cocktail Bar cuisine."
+      ],
+      "id": "gm_80380829",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "The Delancey Rooftop",
+      "type": "Night club",
+      "rating": "4.1",
+      "reviews": "2,267",
+      "price": "Moderately priced",
+      "highlights": [
+        "Everything about The Delancey rooftop bar in New York, NYC. Opening hours, booking link, dress code, pictures and much more."
+      ],
+      "id": "gm_-7150043",
+      "cuisine": "Night club",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Park Bar",
+      "type": "Bar",
+      "rating": "4.3",
+      "reviews": "407",
+      "price": "$20\u201330",
+      "highlights": [
+        "Sunday* to Wednesday - 4:00 pm to 1:00 am Thursday to Saturday - 4:00 pm to 4:00 am Park Bar 19 E 15th Street at Union Square New York, NY 10003 Our other bar and private event space the Black Door at 127 W 26th St. is permanently closed."
+      ],
+      "id": "gm_79667194",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Angel\u2019s Share",
+      "type": "Cocktail bar",
+      "rating": "4.4",
+      "reviews": "1,792",
+      "price": "$50\u2013100",
+      "highlights": [
+        "45 GROVE STREET // WEST VILLAGE, NYC ANGEL&#x27;S SHARE RULES (SINCE 1993) NO RESERVATIONS, WALK-IN ONLY, NO MORE THAN 4 PEOPLE/GROUP, NO STANDING NO SPLIT PARTIES OPEN FROM 5PM, CLOSED SUNDAYS &amp; MONDAYS Follow us on Instagram for most updated information @angelssharenyc NOW HIRING: Host &amp; Busser Please email at hello@angelssharenyc.com Angel&#x27;s Share&#x27;s original location materialized in a very different New York-only the savvy knew of its existence, let alone where to look for it. In 1993, Tony Yoshida opened Angel&#x27;s Share and ushered in a new era for New York."
+      ],
+      "id": "gm_-9597002",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Le Bain",
+      "type": "Night club",
+      "rating": "3.4",
+      "reviews": "1,972",
+      "price": "$100+",
+      "highlights": [
+        "Le Bain is the penthouse discoth\u00e8que and rooftop bar on the top floor of The Standard, High Line featuring world-famous DJs, a state-of-the-art sound system and exclamation-inspiring views. Everything about Le Bain &amp; The Rooftop, arooftop bar in New York, NYC."
+      ],
+      "id": "gm_10910408",
+      "cuisine": "Night club",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Sounds Of Brazil",
+      "type": "Live Music",
+      "rating": "3.7",
+      "reviews": "801",
+      "price": "$$$",
+      "highlights": [
+        "About Us Sounds of Brazil, known as SOB&#x27;s, is a legendary live music club in downtown Manhattan. Founded in 1982 by owner and director Larry Gold, SOB&#x27;s was opened with a mission to amplify the musical wealth and heritage of the Afro-Latino Diaspora."
+      ],
+      "id": "gm_60783281",
+      "cuisine": "Live Music",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "NOFLEX\u00ae NYC",
+      "type": "Cocktail bar",
+      "rating": "4.7",
+      "reviews": "878",
+      "price": null,
+      "highlights": [
+        "NOFLEX\u00ae NYC is New York City&#x27;s first-ever media art restaurant &amp; cocktail bar, offering a truly immersive dining and drinking experience. Guests are surrounded by captivating visuals and digital art projected across a stunning 72-foot LED wall, creating an atmosphere that shifts with the rhythm of time and music."
+      ],
+      "id": "gm_-1705048",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Darling",
+      "type": "Bar",
+      "rating": "3.8",
+      "reviews": "428",
+      "price": null,
+      "highlights": [
+        "Escape to Darling\u2014an intimate rooftop oasis above Central Park. Sip signature cocktails, enjoy curated entertainment, and soak in stunning New York views."
+      ],
+      "id": "gm_46411970",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Tile Bar",
+      "type": "Bar",
+      "rating": "4.2",
+      "reviews": "264",
+      "price": "$10\u201320",
+      "highlights": [
+        "Tile Bar opened its doors in 1984. Tile Bar is an unpretentious East Village staple that has been open since the 1980s (back when the NYC bar scene was a lot different than what we see today)."
+      ],
+      "id": "gm_68392046",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "A10 Kitchen",
+      "type": "American",
+      "rating": "4.5",
+      "reviews": "290",
+      "price": "$20\u201330",
+      "highlights": [
+        "Specialties: Costumer service, our unique food and crafted cocktails all the time. Also we have the best happy hour in NyC."
+      ],
+      "id": "gm_53224559",
+      "cuisine": "American",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "Superbueno",
+      "type": "Cocktail bar",
+      "rating": "4.2",
+      "reviews": "653",
+      "price": "$40\u201350",
+      "highlights": [
+        "MON-THUR: 4PM-2AM FRI-SUN: 2PM-2AM 13 1ST AVENUE, EAST VILLAGE, NYC 347-866-7739 Superbueno is located at 13 1st Avenue. It is open Monday through Friday, 4pm-2am, and 2pm-2am on Saturdays and Sundays."
+      ],
+      "id": "gm_-5681112",
+      "cuisine": "Cocktail bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Clubs/Bars"
+    },
+    {
+      "name": "One if by Land, Two if by Sea",
+      "type": "New American",
+      "rating": "4.2",
+      "reviews": "1,291",
+      "price": "$100+",
+      "highlights": [
+        "One if by Land, Two if by Sea has been recognized for its classic menu, long history, and beautiful decor. It is often cited as the most romantic restaurant in New York City."
+      ],
+      "id": "gm_71572868",
+      "cuisine": "New American",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "Nyc Dates"
+    },
+    {
+      "name": "Bathtub Gin",
+      "type": "Bar",
+      "rating": "4.3",
+      "reviews": "2,238",
+      "price": "$20\u201330",
+      "highlights": [
+        "A classic 1920&#x27;s speakeasy with craft cocktails, a full dinner menu, and live entertainment. Located in New York City."
+      ],
+      "id": "gm_-9094790",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "Speakeasy"
+    },
+    {
+      "name": "Blind Barber",
+      "type": "Bar",
+      "rating": "4.1",
+      "reviews": "545",
+      "price": "$20\u201330",
+      "highlights": [
+        "Blind Barber East Village, New York City During the day, the action happens in the front shop, where local barbers maneuver around antique barber chairs, giving East Villagers cuts and trims with a price that includes a free drink. By night, the lights dim, the candles come out and expertly crafted cocktails and dance tunes fill the hidden bar."
+      ],
+      "id": "gm_84107408",
+      "cuisine": "Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "Speakeasy"
+    },
+    {
+      "name": "Beauty & Essex",
+      "type": "Restaurant",
+      "rating": "4.4",
+      "reviews": "4,458",
+      "price": "$100+",
+      "highlights": [
+        "Beauty &amp; Essex New York has an innovative design that starts in the entrance, and Chef Chris Santos&#x27; cuisine is intended to set a new course. Beauty &amp; Essex- New York, Casual Elegant Unspecified cuisine."
+      ],
+      "id": "gm_-2035364",
+      "cuisine": "Restaurant",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "Speakeasy"
+    },
+    {
+      "name": "UES.",
+      "type": "Ice Cream / Speakeasy",
+      "rating": "3.7",
+      "reviews": "687",
+      "price": null,
+      "highlights": [
+        "The East Pole is a consistently crowded restaurant on the Upper East Side that works for everything from date nights to fun group dinners, but the bar area up front is also useful when you&#x27;re just looking for drinks. The Best Upper East Side Restaurants, According to Eater Editors From revived French prix fixe to Thai fast-casual, here&#x27;s where to go on the Upper East Side The very best bars on the Upper East Side From neighborhood pubs to smart cocktail bars, these are the best Upper East Side bars in New York City."
+      ],
+      "id": "gm_-6166619",
+      "cuisine": "Ice Cream / Speakeasy",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "Speakeasy"
+    },
+    {
+      "name": "Five Guys",
+      "type": "Fast Food",
+      "rating": "4.2",
+      "reviews": "1,394",
+      "price": "$10\u201320",
+      "highlights": [
+        "Browse all Five Guys restaurants in New York, New York. Our fresh burgers are cooked to perfection and don&#x27;t forget to add our famous hand-cut fries and your favourite shake."
+      ],
+      "id": "gm_83390145",
+      "cuisine": "Fast Food",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "Speakeasy"
+    },
+    {
+      "name": "Chapel Bar",
+      "type": "Event venue / Bar",
+      "rating": "4.1",
+      "reviews": "183",
+      "price": null,
+      "highlights": [
+        "Chapel Bar is open for evening cocktails Thursday through Saturday from 5 pm until late. &quot; A new social spot that&#x27;s a bit sacrilegious in all the right ways."
+      ],
+      "id": "gm_91191298",
+      "cuisine": "Event venue / Bar",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Spots"
+    },
+    {
+      "name": "McNally Jackson Books Seaport",
+      "type": "Book store",
+      "rating": "4.7",
+      "reviews": "618",
+      "price": null,
+      "highlights": [
+        "Discover McNally Jackson Coffee &amp; Wine Bar at 4 Fulton Street, a cozy and trendy cafe located within the iconic McNally Jackson Books. Offering a great selection of coffee and tea, alongside a curated list of wine and beer, it&#x27;s the perfect spot to relax with a book or meet a friend."
+      ],
+      "id": "gm_86132948",
+      "cuisine": "Book store",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Spots"
+    },
+    {
+      "name": "Wharf Dr",
+      "type": "Location",
+      "rating": null,
+      "reviews": null,
+      "price": null,
+      "highlights": [
+        "NYC.com information, maps, directions and reviews on The Wharf and other in New York City. NYC.com, the authentic city site, also offer a comprehensive Bars &amp; Music section."
+      ],
+      "id": "gm_-3257058",
+      "cuisine": "Location",
+      "neighborhood": "NYC",
+      "address": null,
+      "reservations": "Unknown",
+      "instagram": null,
+      "source_url": null,
+      "notes": null,
+      "source_collection": "NYC Spots"
+    }
+  ]
+}

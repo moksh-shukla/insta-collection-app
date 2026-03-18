@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Read(//opt/homebrew/lib/node_modules/npm/bin/**)",
+      "Bash(/opt/homebrew/bin/npm --version)",
+      "Read(//opt/homebrew/Cellar/node/25.6.0/bin/**)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(conda run -n insta_app which node)",
+      "Bash(conda run -n insta_app which npm)",
+      "Bash(conda env list)",
+      "Bash(source ~/miniconda3/etc/profile.d/conda.sh)",
+      "Bash(source ~/anaconda3/etc/profile.d/conda.sh)",
+      "Bash(source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh)",
+      "Bash(conda run -n insta_App which node)",
+      "Bash(conda run -n insta_App node --version)",
+      "Bash(conda run -n insta_App which npm)",
+      "Bash(pkill -f \"vite\")"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+.spot-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  outline: none; /* remove default browser outline */
+}
+
+.spot-card:focus-visible {
+  box-shadow: 0 0 0 2px var(--bg-color), 0 0 0 4px var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.spot-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.spot-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.badge {
+  color: #fff;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.spot-rating-row {
+  font-size: 0.9rem;
+  color: #f8fafc;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.star {
+  color: #f59e0b;
+}
+
+.reviews {
+  color: var(--text-secondary);
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.spot-name {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 0.4rem;
+  line-height: 1.25;
+}
+
+.spot-meta-line {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.spot-highlights-inline {
+  margin: 0 0 1.25rem 0;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  box-orient: vertical;
+  overflow: hidden;
+}
+
+.spot-notes {
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  font-style: italic;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 0.75rem;
+  margin-top: auto;
+}
+
+.spot-meta-line:last-of-type,
+.spot-highlights-inline:last-of-type {
+  margin-bottom: auto;
+}
+
+.spot-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+  border-top: 1px solid var(--card-border);
+}
+
+.action-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.action-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.ig-link {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.ig-icon {
+  display: block;
+}
