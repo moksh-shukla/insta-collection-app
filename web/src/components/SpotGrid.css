@@ -1,9 +1,8 @@
 .spot-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.5rem;
-  padding: 0 2rem 4rem;
-  max-width: 1200px;
+  gap: 20px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -41,6 +40,5 @@
 @media (max-width: 768px) {
   .spot-grid {
     grid-template-columns: 1fr;
-    padding: 0 1rem 4rem;
   }
 }

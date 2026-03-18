@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import './App.css';
 import Header from './components/Header';
 import FilterBar from './components/FilterBar';
 import SpotGrid from './components/SpotGrid';
@@ -113,26 +114,32 @@ function App() {
         <LandingPage onExplore={handleExplore} />
       ) : (
         <div className={`content-area ${selectedSpot ? 'panel-open' : ''}`}>
-          <div className="back-nav">
-            <button className="back-btn" onClick={() => setView('landing')}>
-              ← Back to Home
+          {/* Ambient Effects for Directory View */}
+          <div className="dir-ambient-grid"></div>
+          <div className="dir-ambient-glow"></div>
+          
+          <div className="dir-container">
+            <button className="dir-back-btn" onClick={() => setView('landing')}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 12L6 8L10 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <span>Back to home</span>
             </button>
+            
+            <Header 
+              search={search} 
+              setSearch={setSearch} 
+            />
+            <FilterBar 
+              filters={filters} 
+              setFilters={setFilters} 
+              availableFilters={availableFilters}
+              clearFilters={clearFilters}
+              resultCount={filteredSpots.length}
+              totalCount={allSpots.length}
+            />
+            <SpotGrid spots={filteredSpots} onSelect={setSelectedSpot} clearFilters={clearFilters} />
           </div>
-          <Header 
-            search={search} 
-            setSearch={setSearch} 
-            filteredCount={filteredSpots.length}
-            totalCount={allSpots.length}
-          />
-          <FilterBar 
-            filters={filters} 
-            setFilters={setFilters} 
-            availableFilters={availableFilters}
-            clearFilters={clearFilters}
-            resultCount={filteredSpots.length}
-            totalCount={allSpots.length}
-          />
-          <SpotGrid spots={filteredSpots} onSelect={setSelectedSpot} clearFilters={clearFilters} />
         </div>
       )}
       

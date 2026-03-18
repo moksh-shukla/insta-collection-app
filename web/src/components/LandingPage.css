@@ -1,100 +1,337 @@
-.landing-container {
+.landing-wrapper {
   min-height: 100vh;
+  width: 100vw;
+  background-color: #09090b;
+  color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Inter", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* --- Ambient Effects --- */
+.ambient-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-size: 80px 80px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  z-index: 0;
+}
+
+.ambient-glow-orange {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ambient-glow-purple {
+  position: absolute;
+  top: 20%;
+  right: -150px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(167, 139, 250, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.skyline-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  height: 100px;
+  color: rgba(255, 255, 255, 0.04);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- Layout Container --- */
+.landing-container {
+  width: 100%;
+  max-width: 880px;
+  padding: 72px 24px 60px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px; /* between major sections */
+  position: relative;
+  z-index: 1; /* above ambient */
+}
+
+/* --- 1. Top Navigation Bar --- */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-mark {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #f97316;
+  border-radius: 2px;
+}
+
+.brand-text {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.subway-lines {
+  display: flex;
+  gap: 6px;
+}
+
+.subway-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
-  /* The animated radial gradient is already handled globally in index.css body */
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
 }
+.line-a { background-color: #0039A6; } /* Official blue - slightly altered your spec to match A */
+.line-f { background-color: #FF6319; } 
+.line-g { background-color: #6CBE45; }
 
-.landing-content {
-  max-width: 800px;
-  text-align: center;
+/* --- 2. Hero Section --- */
+.hero-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-  animation: fadeIn 0.8s ease-out;
+  gap: 16px;
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+.hero-eyebrow {
+  color: #f97316;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
-.landing-headline {
-  font-size: clamp(3rem, 8vw, 5rem);
+.hero-headline {
+  font-size: clamp(40px, 9vw, 72px);
   font-weight: 800;
-  line-height: 1.1;
-  background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 100%);
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  margin: 0;
+  color: #ffffff;
+}
+
+.headline-fade {
+  background: linear-gradient(90deg, #ffffff 0%, #a1a1aa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.5rem;
 }
 
-.landing-subheadline {
-  font-size: clamp(1.25rem, 3vw, 1.75rem);
-  color: var(--text-primary);
-  opacity: 0.9;
+.hero-description {
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 400;
+  color: #a1a1aa;
+  line-height: 1.6;
+  max-width: 600px;
   margin: 0;
-  font-weight: 500;
 }
 
-.landing-tagline {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  margin: 0 0 2rem 0;
+.live-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #a1a1aa;
+  margin-top: 8px;
 }
 
-.landing-chips {
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- 3. Category Filter Pills --- */
+.category-pills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 3rem;
-  max-width: 600px;
+  gap: 10px;
 }
 
-.landing-chip {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+.pill-btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-size: 14px;
   font-weight: 500;
-  color: var(--text-primary);
-  border: 1px solid var(--card-border);
-  border-radius: 100px;
+  color: #fafafa;
   cursor: pointer;
-  background: rgba(255, 255, 255, 0.05);
   transition: all 0.2s ease;
 }
 
-.landing-chip:hover {
-  background: rgba(255, 255, 255, 0.15);
-  transform: translateY(-2px);
-  border-color: var(--accent-color);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+.pill-btn:hover {
+  background: rgba(255, 255, 255, 0.10);
+  border-color: rgba(255, 255, 255, 0.20);
+  transform: translateY(-1px);
 }
 
-.explore-btn {
-  padding: 1rem 2.5rem;
-  font-size: 1.25rem;
+/* --- 4. Neighborhood Section --- */
+.neighborhood-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.neighborhood-label {
+  font-size: 11px;
   font-weight: 600;
-  color: #ffffff;
-  background: var(--accent-color);
-  border: none;
-  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #52525b;
+}
+
+.neighborhood-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height: 1.8;
+  gap: 8px;
+}
+
+.neighborhood-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #71717a;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4);
+  transition: color 0.2s ease;
 }
 
-.explore-btn:hover {
-  background: #2563eb;
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.6);
+.neighborhood-link:hover {
+  color: #fafafa;
 }
 
-.explore-btn:active {
-  transform: translateY(1px);
+.neighborhood-dot {
+  color: #52525b;
+  font-size: 15px;
+}
+
+/* --- 5. CTA Section --- */
+.cta-section {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.cta-primary {
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-primary:hover {
+  background: #f4f4f5;
+  transform: translateY(-1px);
+}
+
+.cta-secondary {
+  background: transparent;
+  color: #a1a1aa;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fafafa;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* --- 6. Stats Footer --- */
+.stats-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+}
+
+.stat-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #52525b;
+}
+
+@media (max-width: 600px) {
+  .stats-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* --- 7. Source Credit Footer --- */
+.source-credit {
+  font-size: 12px;
+  color: #3f3f46;
+  text-align: left;
+  line-height: 1.5;
+  margin-top: 16px;
 }
